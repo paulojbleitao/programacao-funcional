@@ -1,4 +1,14 @@
-module MultisetList ()
+module MultisetList (
+    MultisetList.insert,
+    MultisetList.remove,
+    MultisetList.search,
+    MultisetList.union,
+    MultisetList.intersection,
+    MultisetList.minus,
+    MultisetList.inclusion,
+    MultisetList.sum,
+    MultisetList.size
+)
     where
 
 {-

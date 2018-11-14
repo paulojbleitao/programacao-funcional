@@ -1,4 +1,14 @@
-module MultisetMap ()
+module MultisetMap (
+    MultisetMap.insert,
+    MultisetMap.remove,
+    MultisetMap.search,
+    MultisetMap.union,
+    MultisetMap.intersection,
+    MultisetMap.minus,
+    MultisetMap.inclusion,
+    MultisetMap.sum,
+    MultisetMap.size
+)
  where
 
 {- 
